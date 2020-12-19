@@ -9,6 +9,12 @@ body {
   background: url('../images/background.gif');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+}
+
+img {
+  width: 100%; /* or max-width: 100%; */
+  height: auto;
 }
 
 video {
