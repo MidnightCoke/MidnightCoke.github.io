@@ -102,6 +102,19 @@ br {
   transform: translate(-50%, -50%);
 }
 
+.fixed_hyperlinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fixed_hyperlinks_row{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 a,a:visited,a:hover,a:active{
   padding-left: 10px;
   padding-right: 10px;
@@ -129,7 +142,7 @@ a:hover .instagram{
 }
 
 a:hover .steam{
-	color: #748cdc;
+	color: #384d92;
 }
 
 a.before:before,a.after:after{
@@ -185,4 +198,10 @@ a.before:hover:before,a.after:hover:after{
   br {
     display: block;
   }
+  .fixed_hyperlinks {
+    flex-direction: column;
+    align-content: center;
+  }
+  
+
 }
